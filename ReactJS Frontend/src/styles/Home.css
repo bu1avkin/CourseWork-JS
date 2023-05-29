@@ -1,0 +1,29 @@
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon i {
+    font-size: 1.5rem;
+}
+
+.card.hover-zoom {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card.hover-zoom:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*.card.custom-height {*/
+/*    height: 200px; !* замените на нужную высоту *!*/
+/*    overflow: hidden; !* скрыть все, что выходит за пределы *!*/
+/*}*/
+
